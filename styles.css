@@ -1,0 +1,111 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set global font and background colors */
+  body {
+    font-family: Arial, sans-serif;
+    color:#fff;
+    background-color:#1a202c;
+  }
+  
+  /* Style header section */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#1a202c;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 38px;
+   margin-left: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif' ;
+    display: inline-flex;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #666;
+  }
+  
+  /* Style main content section */
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:#1a202c;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  main h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+  }
+  main br {
+    margin-left: 4%;
+  }
+  
+  main p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+  }
+  
+  main ul {
+    list-style:none;
+  }
+  .contacts {
+    display: flex;
+    margin-left: 20%;
+  }
+  
+  main li {
+    margin-bottom: 20px;
+  }
+  
+  
+  main a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  main a:hover {
+    background-color: #666;
+  }
+  
+  /* Style footer section */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
